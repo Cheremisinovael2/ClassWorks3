@@ -11,7 +11,7 @@ function createPages(template, filename, chunks) {
 const htmlPages = [
   createPages('./src/index.html', './index.html', ['index']),
   createPages('./src/pages/game.html', './game.html', ['index', 'game']),
-  createPages('./src/pages/form-react.html', './form-react.html', ['index']),
+  createPages('./src/pages/form-react.html', './form-react.html', ['index','form-react']),
 ]
 
 

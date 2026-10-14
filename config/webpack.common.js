@@ -9,7 +9,8 @@ const path = require('path')
 module.exports = {
   entry: {
     index: './src/javascripts/index.js',
-    game: './src/javascripts/game.js'
+    game: './src/javascripts/game.js',
+    'form-react': './src/javascripts/form-react.jsx'
   },
   output: {
     filename: '[name].js',
